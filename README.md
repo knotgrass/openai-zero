@@ -1,6 +1,6 @@
 # OpenAI Python Library
 
-This forked is openai-python version 0.28.1. The main purpose is help developer use both openai-python version <span style="color:green">**0.x.x**</span> and <span style="color:green">**1.x.x**</span> at the same project
+This forked is openai-python version 0.28.1. The main purpose is help developer use both openai-python version <span style="color:green">`0.x.x`</span> and <span style="color:green">`1.x.x`</span> at the same project
 
 You can find usage examples for the OpenAI Python library in our [API reference](https://platform.openai.com/docs/api-reference?lang=python) and the [OpenAI Cookbook](https://github.com/openai/openai-cookbook/).
 
