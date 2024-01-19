@@ -10,7 +10,7 @@ To start, ensure you have Python 3.7.1 or newer. If you just
 want to use the package, run:
 
 ```sh
-git+https://github.com/knotgrass/openai-zero.git
+pip install git+https://github.com/knotgrass/openai-zero.git
 ```
 
 After you have installed the package, import it at the top of a file:
