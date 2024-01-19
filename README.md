@@ -1,10 +1,6 @@
 # OpenAI Python Library
 
-The OpenAI Python library provides convenient access to the OpenAI API
-from applications written in the Python language. It includes a
-pre-defined set of classes for API resources that initialize
-themselves dynamically from API responses which makes it compatible
-with a wide range of versions of the OpenAI API.
+This forked is openai-python version 0.28.1. The main purpose is help developer use both openai-python version <span style="color:green">**0.x.x**</span> and <span style="color:green">**1.x.x**</span> at the same project
 
 You can find usage examples for the OpenAI Python library in our [API reference](https://platform.openai.com/docs/api-reference?lang=python) and the [OpenAI Cookbook](https://github.com/openai/openai-cookbook/).
 
@@ -14,13 +10,13 @@ To start, ensure you have Python 3.7.1 or newer. If you just
 want to use the package, run:
 
 ```sh
-pip install --upgrade openai
+git+https://github.com/knotgrass/openai-zero.git
 ```
 
 After you have installed the package, import it at the top of a file:
 
 ```python
-import openai
+import openai_zero as openai
 ```
 
 To install this package from source to make modifications to it, run the following command from the root of the repository:
@@ -149,7 +145,7 @@ You can learn more in our [moderation guide](https://platform.openai.com/docs/gu
 
 ### Image generation (DALL·E)
 
-DALL·E is a generative image model that can create new images based on a prompt. 
+DALL·E is a generative image model that can create new images based on a prompt.
 
 ```python
 image_resp = openai.Image.create(prompt="two dogs playing chess, oil painting", n=4, size="512x512")
@@ -261,4 +257,4 @@ openai.api_version = "2023-05-15"
 
 ## Credit
 
-This library is forked from the [Stripe Python Library](https://github.com/stripe/stripe-python).
+This library is forked from the [openai-python Library v0.28.1](https://github.com/openai/openai-python).
